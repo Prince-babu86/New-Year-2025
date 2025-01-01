@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #149f96;
+    overflow: hidden;
+}
+
+h3{
+    position: absolute;
+    top: 0;
+    left: 10%;
+    font-size: 70px;
+    font-family: futura;
+}
+.container{
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.heads{
+    display: flex;
+    gap: 55px;
+    rotate: 18deg;
+}
+
+.heads h4{
+    font-size: 105px;
+    font-family: futura;
+}
+
+
+#new1{
+    rotate: 20deg;
+    color: blue;
+}
+
+#new2{
+    rotate: -20deg;
+    color: firebrick;
+}
+
+#new3{
+    rotate: 40deg;
+    color: aliceblue;
+}
+
+#new5{
+    rotate: 20deg;
+    color: darkgray;
+}
+
+#new4{
+    rotate: 20deg;
+    color: green;
+}
+
+#new6{
+    rotate: -20deg;
+    color: blueviolet;
+}
+
+#new7{
+    rotate: 20deg;
+    color: greenyellow;
+}
+
+#new8{
+    rotate: 20deg;
+    color: rgb(57, 31, 13);
+}
+
+#new9{
+    rotate: -20deg;
+    color: deeppink;
+}
+
+#new10 , #new11{
+    rotate: -20deg;
+    color: rgb(0, 0, 0);
+}
+ #new12{
+    rotate: 20deg;
+    color: floralwhite;
+}
+
+.year{
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.year h1{
+    font-size: 200px;
+    font-family: futura;
+}
+
+#new13{
+    color: blue;
+}
+
+#new14{
+    color: rgb(178, 20, 67);
+}
+
+#new15{
+    color: rgb(255, 145, 0);
+}
+
+#new16{
+    color: rgb(45, 44, 43);
+}
+
+#new17{
+    color: rgb(255, 0, 0);
+}
+
+
+@media (max-width:600px) {
+    .heads{
+        rotate: 270deg;
+        margin-top: 600px;
+    }
+    h3{
+        display: none;
+    }
+}
